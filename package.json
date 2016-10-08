@@ -1,0 +1,18 @@
+{
+  "name": "examples-choo-v4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "budo index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "choo": "github:yoshuawuyts/choo#4",
+    "choo-log": "^1.4.1"
+  },
+  "devDependencies": {
+    "budo": "^9.2.1"
+  }
+}
