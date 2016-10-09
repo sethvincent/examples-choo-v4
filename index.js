@@ -17,7 +17,7 @@ app.router({ default: '/' }, [
 function main (state, prev, send) {
   return html`<div>
     <h1>Hi!</h1>
-    <a href="#id">go to anchor link</a>
+    <a href="#ok">go to anchor link</a>
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     <p id="ok">ok</p>
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
