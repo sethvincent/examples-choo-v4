@@ -26,16 +26,16 @@ function wrapper (page) {
 function home (state, prev, send) {
   return html`<div>
     <h1>Home</h1>
-    <a href="/#hey">hey</a>
-    <a href="/#ok">ok</a>
+    <a href="#hey">hey</a>
+    <a href="#ok">ok</a>
   </div>`
 }
 
 function hey (state, prev, send) {
   return html`<div>
     <h1>Hey!</h1>
-    <a href="/#hey">hey</a>
-    <a href="/#ok">ok</a>
+    <a href="#hey">hey</a>
+    <a href="#ok">ok</a>
     <a href="/">home</a>
   </div> `
 }
@@ -43,8 +43,8 @@ function hey (state, prev, send) {
 function ok (state, prev, send) {
   return html`<div>
     <h1>OK!</h1>
-    <a href="/#hey">hey</a>
-    <a href="/#ok">ok</a>
+    <a href="#hey">hey</a>
+    <a href="#ok">ok</a>
     <a href="/">home</a>
   </div>`
 }

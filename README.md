@@ -2,15 +2,23 @@
 
 Trying out (soon to be released) v4 of [choo](https://github.com/yoshuawuyts/choo)
 
-Currently pointing at a fork for a fix to hash routing: 
+Currently pointing at a fork for a fix to hash routing: https://github.com/sethvincent/choo/tree/4-hash-routes
 
-## anchor links
+## Examples
+
+Run the examples using [budo](https://npmjs.com/budo).
+
+```
+npm i -g budo
+```
+
+### anchor links
 
 ```
 budo anchor-links.js
 ```
 
-## hash routing
+### hash routing
 
 ```
 budo hash-routes.js
