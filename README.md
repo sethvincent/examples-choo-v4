@@ -12,6 +12,21 @@ Run the examples using [budo](https://npmjs.com/budo).
 npm i -g budo
 ```
 
+### routes
+
+```
+budo routes.js
+```
+
+Route syntax has changed to be more concise, it's nice:
+
+```js
+app.router({ default: '/' }, [
+  ['/', routeHandler],
+  ['/hey', routeHandler]
+])
+```
+
 ### anchor links
 
 ```

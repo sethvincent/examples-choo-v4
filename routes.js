@@ -10,11 +10,11 @@ app.model({
   reducers: {}
 })
 
-app.router({ default: '#' }, [
-  ['#', wrapper(home)],
-  ['#hey', wrapper(hey)],
-  ['#ok', wrapper(ok)],
-  ['#cool/yeah', wrapper(cool)]
+app.router({ default: '/' }, [
+  ['/', wrapper(home)],
+  ['/hey', wrapper(hey)],
+  ['/ok', wrapper(ok)],
+  ['/cool/yeah', wrapper(cool)]
 ])
 
 function wrapper (page) {
@@ -27,18 +27,18 @@ function wrapper (page) {
 function home (state, prev, send) {
   return html`<div>
     <h1>Home</h1>
-    <a href="#hey">hey</a>
-    <a href="#ok">ok</a>
-    <a href="#cool/yeah">cool</a>
+    <a href="/hey">hey</a>
+    <a href="/ok">ok</a>
+    <a href="/cool/yeah">cool</a>
   </div>`
 }
 
 function hey (state, prev, send) {
   return html`<div>
     <h1>Hey!</h1>
-    <a href="#hey">hey</a>
-    <a href="#ok">ok</a>
-    <a href="#cool/yeah">cool</a>
+    <a href="/hey">hey</a>
+    <a href="/ok">ok</a>
+    <a href="/cool/yeah">cool</a>
     <a href="/">home</a>
   </div> `
 }
@@ -46,20 +46,20 @@ function hey (state, prev, send) {
 function ok (state, prev, send) {
   return html`<div>
     <h1>OK!</h1>
-    <a href="#hey">hey</a>
-    <a href="#ok">ok</a>
-    <a href="#cool/yeah">cool</a>
-    <a href="#">home</a>
+    <a href="/hey">hey</a>
+    <a href="/ok">ok</a>
+    <a href="/cool/yeah">cool</a>
+    <a href="/">home</a>
   </div>`
 }
 
 function cool (state, prev, send) {
   return html`<div>
     <h1>Cool!</h1>
-    <a href="#hey">hey</a>
-    <a href="#ok">ok</a>
-    <a href="#cool/yeah">cool</a>
-    <a href="#">home</a>
+    <a href="/hey">hey</a>
+    <a href="/ok">ok</a>
+    <a href="/cool/yeah">cool</a>
+    <a href="/">home</a>
   </div>`
 }
 
