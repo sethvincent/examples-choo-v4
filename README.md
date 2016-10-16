@@ -14,7 +14,7 @@ npm i -g budo
 
 ### reducers/effects/subscriptions/etc `state`, `data` arguments
 
-The `data` & `state` arguments were switched to make the argument order similar to redux & so that reducers can be passed directly into `arr.reduce()`, as the argument order matches.
+The `data` & `state` arguments were switched to make the argument order similar to redux & so that reducers can be passed directly into `arr.reduce()`, because the argument order matches.
 
 The order is now `state, data`:
 
