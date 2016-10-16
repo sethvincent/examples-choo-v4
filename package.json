@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "choo": "github:sethvincent/choo#4-hash-routes",
+    "choo": "github:sethvincent/choo#use-href",
     "choo-log": "^1.4.1"
   },
   "devDependencies": {

@@ -2,7 +2,7 @@
 
 Trying out (soon to be released) v4 of [choo](https://github.com/yoshuawuyts/choo)
 
-Currently pointing at a fork for a fix to hash routing: https://github.com/sethvincent/choo/tree/4-hash-routes
+Currently pointing at a fork for a fix to hash routing: https://github.com/sethvincent/choo/tree/use-href
 
 ## Examples
 
@@ -27,14 +27,25 @@ app.router({ default: '/' }, [
 ])
 ```
 
+### hash routing
+
+```
+budo hash-routes.js
+```
+
+Hash routing is supported, just use hashes in the route definitions:
+
+```js
+app.router({ default: '#' }, [
+  ['#', routeHandler],
+  ['#hey', routeHandler]
+])
+```
+
 ### anchor links
 
 ```
 budo anchor-links.js
 ```
 
-### hash routing
-
-```
-budo hash-routes.js
-```
+Unless using hash routing, anchor links on the page should just work.
